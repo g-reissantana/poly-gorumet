@@ -32,7 +32,7 @@ body {
     height: 148px;
     display: block;
     margin: 35px auto 20px;
-    border-radius: 50%;
+    border-radius: 13%;
 }
 
 #userName {
@@ -113,48 +113,47 @@ body {
 
 @-webkit-keyframes animation {
     0.00% {
-        background-color: #2F3035ff;
+        background-color: rgba(149, 96, 162, 0.971);
     }
 
-    28.57% {
-        background-color: #232428ff;
+    50.00% {
+        background-color: rgb(102, 67, 113);
     }
 
-
-    57.14% {
-        background-color: #18181Bff;
+    65.00% {
+        background-color: rgb(130, 91, 135);
     }
 
+    83.33% {
+        background-color: rgb(112, 70, 117);
 
-    85.71% {
-        background-color: rgb(31, 31, 33);
     }
 
     100.00% {
-        background-color: #2F3035ff;
+        background-color: rgba(149, 96, 162, 0.971);
     }
 }
 
 @keyframes animation {
     0.00% {
-        background-color: #2F3035ff;
+        background-color: rgba(149, 96, 162, 0.971);
     }
 
     50.00% {
-        background-color: #232428ff;
+        background-color: rgb(102, 67, 113);
     }
 
     65.00% {
-        background-color: #18181Bff;
+        background-color: rgb(130, 91, 135);
     }
 
     83.33% {
-        background-color: rgb(28, 28, 31);
+        background-color: rgb(112, 70, 117);
 
     }
 
     100.00% {
-        background-color: #2F3035ff;
+        background-color: rgba(149, 96, 162, 0.971);
     }
 }
 
